@@ -1,0 +1,11 @@
+SHOW DATABASES; 
+USE Paqueteria; 
+SHOW TABLES FROM Paqueteria; 
+SHOW COLUMNS FROM Camionero;
+INSERT INTO Camionero (`dni`, `telefono`, `nombre`, `salario`, `direccion`, `poblacion`) VALUES ("19327267W", 677899666, "Miguel", 900, "Av. América, 32", "Madrid");
+INSERT INTO Camionero (`dni`, `telefono`, `nombre`, `salario`, `direccion`, `poblacion`) VALUES ("29829298F", 938291737, "Luis", 1200, "C/Los Olivos, 17", "Guadalajara");
+INSERT INTO Camionero (`dni`, `telefono`, `nombre`, `salario`, `direccion`, `poblacion`) VALUES ("83926178J", 678341678, "Alicia", 980, "C/Menendez Pidal, 23", "Toledo");
+INSERT INTO Camionero (`dni`, `telefono`, `nombre`, `salario`, `direccion`, `poblacion`) VALUES ("29176598G", 645637912, "Jose Antonio", 830, "C/Toledana, 45", "Madrid");
+INSERT INTO Camionero (`dni`, `telefono`, `nombre`, `salario`, `direccion`, `poblacion`) VALUES ("74893528D", 689336217, "Maria Rosa", 1200, "Av.Maizal, 15", "Toledo");
+INSERT INTO Camionero (`dni`, `telefono`, `nombre`, `salario`, `direccion`, `poblacion`) VALUES ("789367216", 689213483, "Raúl", 1100, "Av. de Paul, 33", "Toledo");
+INSERT INTO Camionero (`dni`, `telefono`, `nombre`, `salario`, `direccion`, `poblacion`) VALUES ("29176598G", 645637912, "Jose Antonio", 830, "C/Toledana, 45", "Madrid");
